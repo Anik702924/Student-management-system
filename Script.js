@@ -6,7 +6,6 @@ const submitButton = document.getElementById("submitButton");
 const formTitle = document.getElementById("formTitle");
 let students = JSON.parse(localStorage.getItem("students")) || [];
 let editIndex = -1;
-// Show students when page opens
 showStudents();
 form.addEventListener("submit", function(event) {
     event.preventDefault();
